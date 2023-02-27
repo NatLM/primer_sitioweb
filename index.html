@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" conten="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página web de gatos</title>
+        <!--establece la conexion con el archivo css-->
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--comentarios-->
+        <h1>PAGEWEB about of cats!</h1>
+        
+        <h3>Imágenes de gatos</h3>
+
+        <!--Imagen desde internet-->
+        <img src="https://s1.stickers.cloud/packs/2d6bbe6b-7e24-4f0f-98de-2661428bee74/png/10ee56a5-10f0-4255-ad94-97b526f02959.png">
+
+        <!--Imagen desde equipo-->
+        <br>
+
+        <img src="images/cat.jpg">
+
+    <div>
+        <h3>Listas de gatitos</h3>
+        <p>3 cosas que los gatos <strong>aman</strong></p>
+
+        <!--lista ordenada-->
+        <ol><!--ordered list-->
+            <li>Pastito</li>
+            <li>Dormir</li>
+            <li>Jugar</li>
+        </ol>
+
+        <!--Lista desordenada-->
+        <p>3 cosas que los gatos <strong>odian</strong></p>
+        <ul>
+            <li>Bañarse</li>
+            <li>Tener hambre</li>
+            <li>Quedarse solos</li>
+        </ul>
+    </div>
+        <!--crear enlaces externos-->
+        <p>Si quieres ver un video de gatitos,<a href="https://www.youtube.com/watch?v=_9ZKOLVEjJI" target="_blank"> da click en este enlace </a></p>
+
+    
+        <!--link en imagen-->
+
+        <!--FORMULARIO-->
+        <form>
+            <!--formulario con botones de radio-->
+            <p>¿Tu gatito es pequeño o es adulto?</p>
+                <label>
+                    <input id="pequeno" type="radio" value="pequeno" name="pequeno-adulto" checked>Pequeño
+                </label>
+                    <br>
+                <label>
+                    <input id="adulto" type="radio" value="adulto" name="pequeno-adulto">Adulto
+                </label>
+
+            <!--formulario con casillas de verificación-->
+            <p>¿Qué tipo de gato es el tuyo?</p>
+                <label>
+                    <input id="carinoso" type="checkbox" value="carinoso" name="personalidad">Cariñoso
+                </label>
+                    <br>
+                <label>
+                    <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+                </label>
+                    <br>
+                <label>
+                    <input id="energico" type="checkbox" value="energico" name="personalidad" checked>Enérgico
+                </label>
+        </form>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+
+    </body>
+</html>
